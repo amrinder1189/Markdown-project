@@ -1,11 +1,22 @@
-.App {
-  text-align: center;
+
+#conatiner{
+  height: 100vh;
+  widows: 100%;
+  display: flex;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#editor{
+  widows: 80%;
+  height: 60vh;
+  flex: 1;
+
 }
+
+#output{
+  flex: 1;
+}
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
